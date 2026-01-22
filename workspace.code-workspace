@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "Needle Engine",
+      "path": "./node_modules/@needle-tools/engine"
+    },
+    {
+      "name": "@needle-tools/samples-scripts",
+      "path": "node_modules/@needle-tools/samples-scripts",
+      "@needle:managed": true
+    },
+    {
+      "name": "needle.hotspots",
+      "path": "node_modules/needle.hotspots",
+      "@needle:managed": true
+    }
+  ],
+  "settings": {
+    "window.title": "Template - ${rootName}${separator}${activeEditorShort}",
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/*.meta": true
+    }
+  }
+}
